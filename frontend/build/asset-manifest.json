@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce72418d.css",
+    "main.js": "/static/js/main.78fd0548.js",
+    "static/js/377.9e469038.chunk.js": "/static/js/377.9e469038.chunk.js",
+    "static/media/oo.jpg": "/static/media/oo.4766fde6daa7f3a3044e.jpg",
+    "static/media/pexels-jess-bailey-designs-1007025.jpg": "/static/media/pexels-jess-bailey-designs-1007025.99844e9ceb8e736adde5.jpg",
+    "index.html": "/index.html",
+    "main.ce72418d.css.map": "/static/css/main.ce72418d.css.map",
+    "main.78fd0548.js.map": "/static/js/main.78fd0548.js.map",
+    "377.9e469038.chunk.js.map": "/static/js/377.9e469038.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce72418d.css",
+    "static/js/main.78fd0548.js"
+  ]
+}

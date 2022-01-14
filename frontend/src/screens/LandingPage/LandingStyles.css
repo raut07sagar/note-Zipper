@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+  font-family: 'Lobster', cursive;
+
+}
+.title {
+  font-size: 95px;
+}
+.subtitle {
+  font-size: 25px;
+  padding-top: 10px;
+}
+.intro-text {
+  width: 100%;
+  text-align: center;
+  color: rgb(250, 255, 240);
+  opacity: 80%;
+  font-family: 'Lobster', cursive;
+  
+}
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+ 
+   background: rgba(0,0,0,0.4)url("../../oo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.buttonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landingbutton {
+  width: 200px;
+  height: 55px;
+  background-color: rgb(216, 84, 84);
+  
+  box-shadow: 2px 3px 2px rgb(83, 24, 24);
+}
+.landingbutton:hover {
+  background: url("https://media3.giphy.com/media/WrHrrwqxCTTb7uKQQX/200w.webp?cid=ecf05e47wxphgfu8s78sl7bhrh4lojg3pjywqb97o1yxc7sz&rid=200w.webp&ct=g");
+
+}
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+  .title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .landingbutton {
+    width: 150px;
+    height: 50px;
+  }
+}
